@@ -4,6 +4,7 @@ import { useSelector } from 'react-redux'
 import firebase from '../../firebase.js'
 
 const Header = () => {
+    //userSlice에서 name:user 정보 가져오기
     const user = useSelector(state => state.user);
     const navigate = useNavigate();
 
